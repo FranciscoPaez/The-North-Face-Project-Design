@@ -1,0 +1,298 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #272727 0%, black 100%);
+}
+
+
+/* NavBar*/
+
+.navbar {
+    background-color: #00000036 !important;
+}
+
+.navbar a img {
+    width: 25%;
+}
+
+input {
+    border-radius: none !important;
+    border-radius: 0px !important;
+}
+
+i{
+    color: #fff;
+    margin-top: 1.2vh;
+    margin-right: 7.5vh;
+}
+
+.nav-two {
+    background: #00000036;
+    height: 4vh;
+    margin-right: 6vh;
+    padding-bottom: 4vh;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-two li {
+    list-style: none;
+}
+
+.nav-two a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    padding-bottom: 1vh;
+}
+
+.home {
+    border-bottom: 2px solid #e2c78c !important;
+}
+
+.home-men-women:hover {
+    border-bottom: 2px solid #e2c78c !important;
+}
+
+.sale:hover {
+    color: red !important;
+    font-weight: 600 !important;
+    border-bottom: 2px solid red !important;
+}
+
+/* Main */
+
+.img {
+    padding-left: 5vh;
+}
+
+img {
+    width: 80%;
+}
+
+.description {
+    margin-top: 12vh;
+}
+
+.title {
+    color: #e2c78c;
+    font-size: 4vh;
+}
+
+.subtitle {
+    color: #ccc !important;
+    font-size: 6vh;
+}
+
+.parr {
+    color: #ffffff8c;
+    margin-bottom: 2.5vh;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #e2c78c;
+    padding: 1vh;
+    color: #000;
+    font-weight: 600;
+}
+
+/* Main Two*/
+
+.main-two {
+    background: #272727;
+    bottom: 0;
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.media-icons {
+    font-size: 2.5vh;
+    margin-top: 5vh;
+    margin-left: 14vh;
+    border-right: 1px solid #8f8f8e;
+
+}
+
+.media-icons li {
+    list-style: none;
+}
+
+.media-icons li i {
+    margin-top: 2vh;
+    color: #e2c78c;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.media-icons li i:hover {
+    transform: scale(1.5);
+}
+
+.events {
+    font-size: 1.8vh;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .8vh;
+    margin-top: 2vh;
+    font-weight: 600;
+}
+
+.events-content {
+    margin-top: 5vh;
+}
+
+.span {
+    color: #cccccce7;
+}
+
+.p-span {
+    color: #cccccc50;
+}
+
+.card {
+    padding-top: 1vh;
+    background-color: transparent;
+    height: 93%;
+    border: none !important;
+}
+
+.card img {
+    width: 100% !important;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.card-subtitle {
+    color: #ccc;
+    margin-bottom: 1vh;
+}
+
+.card-text {
+    color: #cccccc75;
+}
+
+.read-more {
+    color: #e2c78c;
+    text-decoration: none;
+}
+
+
+/*<----- About us ---->*/
+
+.img-about {
+    width: 100%;
+}
+
+.about {
+    border-bottom: 2px solid #e2c78c !important;
+}
+
+.about-title{
+    color: #ccc;
+    text-align: center;
+    margin: 3vh 0;
+}
+
+.parr-about{
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.card-about {
+    margin-left: 5vh;
+}
+
+.card-about img {
+    cursor: pointer;
+}
+
+.card-text-about {
+    text-align: center;
+    margin: 1vh 0;
+    color: #ccc;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 5vh;
+}
+
+/*Footer*/
+
+footer {
+    background: #fff;
+}
+
+footer img {
+    width: 8%;
+}
+
+
+/* Sale */
+
+#sale{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.button-sale {
+    text-decoration: none;
+    background-color: red;
+    padding: 1vh;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 20vh;
+}
+
+.card-men {
+    margin: 6vh 0;
+    border:  1px solid #e2c78c;
+    padding: 2vh;
+    background: #272727bb;
+}
+
+.card-title-men {
+    color: #fff;
+    text-align: center;
+    margin-top: 1.5vh;
+}
+
+.line-down {
+    border-bottom: 1px solid #e2c78c;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
+}
+
+.price {
+    color: #fff;
+    font-weight: 500;
+}
+
+.coin {
+    color: green;
+    font-weight: 500;
+}
+
+.men {
+    border-bottom: 2px solid #e2c78c !important;
+}
+
+.women {
+    border-bottom: 2px solid #e2c78c !important;
+}
+
